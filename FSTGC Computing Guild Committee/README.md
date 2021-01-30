@@ -1,7 +1,3 @@
-Ubuntu VBox Set up
-
-[toc]
-
 # Foreword on Alternatives
 
 Please note that depending on your computer's RAM and processor, running a virtual machine may be too difficult for it and dual booting or WSL(Windows Subsystem for Linux) would be a better option. (I personally wouldn't recommend trying to run a virtual machine if you have less than 8GB of RAM, especially if you are a Windows user).
