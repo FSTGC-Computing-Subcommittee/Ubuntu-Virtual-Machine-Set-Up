@@ -32,11 +32,13 @@ The process is pretty much the same but for the purposes of this guide, We'll be
 # Setting up the Virtual Machine
 
 1. Open VirtualBox. (Yours will probably look different from mine because of theming)
+
 ![228e405e83605a5c3f74b1ccc4c9c58f.png](./_resources/91703358587d435d958bf23d83d5daae.png)
 
 2. Click `New`
 
 ![3ab482b5aa95221cb6304902466e2eb4.png](./_resources/89b7e77962c74d4d83a452e85e77a671.png)
+
 Give the Virtual Machine a name (I just called it Ubuntu) and the other settings you see there were defaults. Just double check that the `Type` is Linux and version is Ubuntu (64-bit).
 
 3. Set the amount of RAM
