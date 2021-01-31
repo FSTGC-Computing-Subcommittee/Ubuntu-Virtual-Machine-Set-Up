@@ -3,13 +3,18 @@
 
 Please note that depending on your computer's RAM and processor, running a virtual machine may be too difficult for it and dual booting or WSL(Windows Subsystem for Linux) would be a better option. (I personally wouldn't recommend trying to run a virtual machine if you have less than 8GB of RAM, especially if you are a Windows user).
 
+If you want to dual boot and you are on Windows, I recommend following this guide: https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/. You may not be able to shrink your Windows partition with the builtin disk management software as the guide illustrates. In that case you can use [AOMEI Partition Assistant](https://www.diskpart.com) or [EaseUS Partition Master](https://www.easeus.com/download/epmf-download.html). Also at the part where you are creating the partitions before installation of Ubuntu, the `/home` partition is not necessary. You can just create the swap and then `/` parition with the remaining free space.
+
+If you want to use the Windows Subsystem for Linux, I recommend reading this guide: https://docs.microsoft.com/en-us/windows/wsl/install-win10.
+
+If you are a Mac user and you want to dual boot, hopefully this works for you: https://help.ubuntu.com/community/MactelSupportTeam/AppleIntelInstallation. (I have never tried dual booting a Mac)
+
+
 # Prequisites
 
 - VirtualBox
 - An Ubuntu iso file
 - about 10GB of free space at minimum
-
-
 
 ## Install VirtualBox
 
